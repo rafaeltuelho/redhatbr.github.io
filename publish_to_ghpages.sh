@@ -28,6 +28,7 @@ hugo
 echo "Removing patternfly test pages due some GitHub pages restrictions/issues..."
 rm -rf themes/redhatgov/static/node_modules/patternfly/tests
 rm -rf public/node_modules/patternfly/tests
+rm -rf public/node_modules/patternfly/node_modules/eonasdan-bootstrap-datetimepicker/src/nuget/*.exe
 
 echo "Updating gh-pages branch"
 cd public && git add --all && git commit -m "Publishing to gh-pages (publish.sh)"
