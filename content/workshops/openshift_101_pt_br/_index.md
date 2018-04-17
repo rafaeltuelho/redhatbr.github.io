@@ -1,5 +1,5 @@
 ---
-title: Example Workshop
+title: Example Workshop in pt-BR
 menu:
   main:
     parent: workshops
