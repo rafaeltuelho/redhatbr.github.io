@@ -25,10 +25,14 @@ rm -rf public/*
 echo "Generating site"
 hugo
 
-#echo "Removing patternfly test pages due some GitHub pages restrictions/issues..."
+echo "Removing patternfly node deps to avoid GitHub pages restrictions/issues..."
 #rm -rf themes/redhatgov/static/node_modules/patternfly/tests
 #rm -rf public/node_modules/patternfly/tests
-#rm -rf public/node_modules/patternfly/node_modules/eonasdan-bootstrap-datetimepicker/src/nuget/*.exe
+rm -rf public/node_modules/patternfly/node_modules/eonasdan-bootstrap-datetimepicker/src/nuget/*.exe
 
 echo "Updating gh-pages branch"
-cd public && touch .nojekyll && git add --all && git commit -m "Publishing to gh-pages (publish_to_ghpages.sh)"
+cd public \
+ && touch .nojekyll \
+ && git add --all \
+ && git commit -m "Publishing to gh-pages (publish_to_ghpages.sh)" \
+ && git push origin gh-pages
