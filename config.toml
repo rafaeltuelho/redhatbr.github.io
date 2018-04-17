@@ -3,6 +3,7 @@ baseURL = "https://redhat-sa-brazil.github.io/redhatgov.github.io/"
 theme = "redhatgov"
 languageCode = "en-us"
 metaDataFormat = "yaml"
+ignoreFiles = [ "\node_modules\\tests$", "\\tests$" ]
 
 [params]
     description = "Tried. Tested. Trusted."
