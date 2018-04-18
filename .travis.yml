@@ -20,7 +20,7 @@ script:
   - ./bin/hugo --buildFuture --verbose
   - cd public
   - touch .nojekyll
-#  - echo "redhatbr.io" > CNAME
+  - echo "redhatbr.io" > CNAME
   - tree workshops
 #  - tree events
   - cd ..
