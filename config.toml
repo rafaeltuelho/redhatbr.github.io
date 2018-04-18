@@ -1,5 +1,5 @@
 title = "Red Hat Brasil | Workshops | Test Drives | Demos"
-baseURL = "https://redhatbr.io/"
+baseURL = "http://redhatbr.io/"
 theme = "redhatgov"
 languageCode = "en-us"
 metaDataFormat = "yaml"
