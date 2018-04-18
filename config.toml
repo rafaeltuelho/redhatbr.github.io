@@ -1,5 +1,5 @@
-title = "Red Hat Brasil | Governo"
-baseURL = "https://redhat-sa-brazil.github.io/redhatgovbr.github.io/"
+title = "Red Hat Brasil | Workshops | Test Drives | Demos"
+baseURL = "https://redhat-sa-brazil.github.io/"
 theme = "redhatgov"
 languageCode = "en-us"
 metaDataFormat = "yaml"
