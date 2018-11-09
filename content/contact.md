@@ -16,4 +16,4 @@ Please feel free to contact us, our customer service center is working for you
 https://www.redhat.com/en/services/support
 
 If you find any issues with the content on this site, please file an issue on
-our GitHub project at https://github.com/RedHatGov/redhatgov.github.io/
+our GitHub project at https://github.com/redhat-sa-brazil/redhatbr.github.io/
